@@ -14,11 +14,11 @@ public class RandomSelection implements Interaction {
     @Override
     public <T extends Actor> void performAs(T actor) {
 
-            List<WebElementFacade> listSongs = LIST_PRODUCTS.resolveAllFor(actor);
+            List<WebElementFacade> listTitleProducts = LIST_PRODUCTS.resolveAllFor(actor);
             Random random = new Random();
-            int indexRandom = random.nextInt(listSongs.size());
-            Product.addTitle(listSongs.get(indexRandom).getText());
-            listSongs.get(indexRandom).click();
+            int indexRandom = random.nextInt(listTitleProducts.size());
+            Product.addTitle(listTitleProducts.get(indexRandom).getText());
+            listTitleProducts.get(indexRandom).click();
     }
 
     public static RandomSelection click(){
