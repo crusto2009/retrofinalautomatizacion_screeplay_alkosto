@@ -152,7 +152,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 07-12-2023 10:13</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 01-06-2024 20:44</span>
     <br style="clear:left"/>
 </div>
 
@@ -193,9 +193,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-exclamation-triangle-fill error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Agregar productos al carrito de compras de manera exitosa
+                                <span class="error-color">Agregar productos al carrito de compras de manera exitosa
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -212,65 +212,62 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Illegal argument exception: bound must be positive</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall"
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="bi bi-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.IllegalArgumentException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.alkosto.interactions.RandomSelection.performAs(RandomSelection.java:19)<br />com.alkosto.task.SelectProductTask.performAs(SelectProductTask.java:12)<br />com.alkosto.stepDefinitions.SeleccionarProductosStepDefinitions.deClicEnUnProductoYLoAgregeAlCarrito(SeleccionarProductosStepDefinitions.java:78)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:57)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:84)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:75)<br />io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)<br />io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)<br />io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)<br />io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:259)<br />io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:59)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)<br />worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+                    <div class="panel-body">
+                        <a href="pagesource5704097600212595476.html" target="_blank" class="btn btn-info">HTML Source</a>
+                    </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="bdcba4b0b1a6aa9a437d5c94ed0bce95bf167e07ef12a1985c127c2f9a5b1fa6.png" title=" Dado que ingreso en la pagina de la tienda" width="1920"/>
-                <img src="bdcba4b0b1a6aa9a437d5c94ed0bce95bf167e07ef12a1985c127c2f9a5b1fa6.png" title=" User open browser task" width="1920"/>
-                <img src="bdcba4b0b1a6aa9a437d5c94ed0bce95bf167e07ef12a1985c127c2f9a5b1fa6.png" title=" user opens the pages.homepage page" width="1920"/>
-                <img src="bdcba4b0b1a6aa9a437d5c94ed0bce95bf167e07ef12a1985c127c2f9a5b1fa6.png" title=" User open browser task (completed)" width="1920"/>
-                <img src="bdcba4b0b1a6aa9a437d5c94ed0bce95bf167e07ef12a1985c127c2f9a5b1fa6.png" title=" Dado que ingreso en la pagina de la tienda (completed)" width="1920"/>
-                <img src="851f7d92076d652daeee7ca672df604cb7546d92317b1df6d8f9b84a4709628c.png" title=" Cuando de clic en un producto y lo agrege al carrito" width="1920"/>
-                <img src="851f7d92076d652daeee7ca672df604cb7546d92317b1df6d8f9b84a4709628c.png" title=" User clic btn cookie task" width="1920"/>
-                <img src="851f7d92076d652daeee7ca672df604cb7546d92317b1df6d8f9b84a4709628c.png" title=" user clicks on boton cookies" width="1920"/>
-                <img src="851f7d92076d652daeee7ca672df604cb7546d92317b1df6d8f9b84a4709628c.png" title=" User clic btn cookie task (completed)" width="1920"/>
-                <img src="851f7d92076d652daeee7ca672df604cb7546d92317b1df6d8f9b84a4709628c.png" title=" User search product task" width="1920"/>
-                <img src="851f7d92076d652daeee7ca672df604cb7546d92317b1df6d8f9b84a4709628c.png" title=" user clicks on input search" width="1920"/>
-                <img src="cc158fde04460644f2a5665d06bc558e39720a42ba02e639547b7db7ca081a87.png" title=" user clicks on input search" width="1920"/>
-                <img src="851f7d92076d652daeee7ca672df604cb7546d92317b1df6d8f9b84a4709628c.png" title=" user clicks on input search (completed)" width="1920"/>
-                <img src="851f7d92076d652daeee7ca672df604cb7546d92317b1df6d8f9b84a4709628c.png" title=" user enters 'Portatil' then hits [RETURN] into input search" width="1920"/>
-                <img src="4774e5cff79fa7e2a5c4d59ae95ad0249a2dbf7fa4ad5869b9ebbc5978bf14c8.png" title=" user enters 'Portatil' then hits [RETURN] into input search" width="1920"/>
-                <img src="dca77bb4cdb292cf39ba67409708c4adb858869535427bd04fe16f40ae4006ba.png" title=" user enters 'Portatil' then hits [RETURN] into input search (completed)" width="1920"/>
-                <img src="150cf6e7fac264e0912c1a039392d3e60137cea4387d2ce8fe97d4f5736c31d6.png" title=" User search product task (completed)" width="1920"/>
-                <img src="150cf6e7fac264e0912c1a039392d3e60137cea4387d2ce8fe97d4f5736c31d6.png" title=" User select product task" width="1920"/>
-                <img src="41fdc00e7af2f2ca8a62ba3342e06d9a9eb99050250a6a6840779e8f14aebb24.png" title=" User random selection" width="1920"/>
-                <img src="1635572c8ad54601ed989a0f29f8d201d7365e52db1d9f0b5c353831bc5a5e5f.png" title=" User random selection" width="1920"/>
-                <img src="89daa40a9ebeae2f5b044d7dfd18a7509569d800931cd87530a758f4a177eb9b.png" title=" User random selection (completed)" width="1920"/>
-                <img src="89daa40a9ebeae2f5b044d7dfd18a7509569d800931cd87530a758f4a177eb9b.png" title=" User select product task (completed)" width="1920"/>
-                <img src="89daa40a9ebeae2f5b044d7dfd18a7509569d800931cd87530a758f4a177eb9b.png" title=" User add product to card task" width="1920"/>
-                <img src="89daa40a9ebeae2f5b044d7dfd18a7509569d800931cd87530a758f4a177eb9b.png" title=" user clicks on Boton agregar carrito" width="1920"/>
-                <img src="490489edd7e927f28185bceda1b05e18dc93792136f5ecdff0a9ecc2c3dba492.png" title=" user clicks on Boton agregar carrito" width="1920"/>
-                <img src="d9ebcb2b52369668ba7eca0053aa1aa7ada902c6ad4eb26c351bbfff4f86e424.png" title=" user clicks on Boton agregar carrito (completed)" width="1920"/>
-                <img src="d9ebcb2b52369668ba7eca0053aa1aa7ada902c6ad4eb26c351bbfff4f86e424.png" title=" User add product to card task (completed)" width="1920"/>
-                <img src="d9ebcb2b52369668ba7eca0053aa1aa7ada902c6ad4eb26c351bbfff4f86e424.png" title=" User continuos shopping product task" width="1920"/>
-                <img src="e5449911f3807a7f31d7ee4b9c27cf277bfb3b936d80e92fb96fd8a8d9d055d5.png" title=" user clicks on Boton continuar comprando" width="1920"/>
-                <img src="484e567dbe0b379032a18b0c2c0a4cf2610d1f9509605af60216c197a539cad4.png" title=" user clicks on Boton continuar comprando" width="1920"/>
-                <img src="839dff0f5f51e0a9be16deb26b38866c359fd6879bd87157243b4f38cbf44691.png" title=" user clicks on Boton continuar comprando (completed)" width="1920"/>
-                <img src="839dff0f5f51e0a9be16deb26b38866c359fd6879bd87157243b4f38cbf44691.png" title=" User continuos shopping product task (completed)" width="1920"/>
-                <img src="839dff0f5f51e0a9be16deb26b38866c359fd6879bd87157243b4f38cbf44691.png" title=" User back page task" width="1920"/>
-                <img src="839dff0f5f51e0a9be16deb26b38866c359fd6879bd87157243b4f38cbf44691.png" title=" User back page" width="1920"/>
-                <img src="feec36c0ec1cc76b5b5733e7c1f946155a4a7989f3e488f58a7021adf5c00077.png" title=" User back page (completed)" width="1920"/>
-                <img src="feec36c0ec1cc76b5b5733e7c1f946155a4a7989f3e488f58a7021adf5c00077.png" title=" User back page task (completed)" width="1920"/>
-                <img src="feec36c0ec1cc76b5b5733e7c1f946155a4a7989f3e488f58a7021adf5c00077.png" title=" User scroll to task" width="1920"/>
-                <img src="ae4ad9b16b4347a369059879d6e94e2818aff23a7c5143cb460653c8e5905088.png" title=" User scroll top page" width="1920"/>
-                <img src="ebff97f33b475b1912e0bb69fbe0f7a7d878edde51956f3c21861e689a00b3d6.png" title=" User scroll top page (completed)" width="1920"/>
-                <img src="ebff97f33b475b1912e0bb69fbe0f7a7d878edde51956f3c21861e689a00b3d6.png" title=" User scroll to task (completed)" width="1920"/>
-                <img src="ebff97f33b475b1912e0bb69fbe0f7a7d878edde51956f3c21861e689a00b3d6.png" title=" User select product task" width="1920"/>
-                <img src="f2c2bab3c9167557c2672711ecc70794edfe22e9ce21867195a30cb43edf0109.png" title=" User random selection" width="1920"/>
-                <img src="7fd4f47fdf37def1aa55722ac5cf9285a5a9b945b4f84eaa36728dee56ec2bcd.png" title=" User random selection (completed)" width="1920"/>
-                <img src="7fd4f47fdf37def1aa55722ac5cf9285a5a9b945b4f84eaa36728dee56ec2bcd.png" title=" User select product task (completed)" width="1920"/>
-                <img src="7fd4f47fdf37def1aa55722ac5cf9285a5a9b945b4f84eaa36728dee56ec2bcd.png" title=" User add product to card task" width="1920"/>
-                <img src="7fd4f47fdf37def1aa55722ac5cf9285a5a9b945b4f84eaa36728dee56ec2bcd.png" title=" user clicks on Boton agregar carrito" width="1920"/>
-                <img src="f8d0aeea267000da2fc75676805f0f7facb892546367ba3c3ae06916da031b7d.png" title=" user clicks on Boton agregar carrito" width="1920"/>
-                <img src="f72067e083ad5478c1caa4c14424cc9e00a950e8371b012b9b77a4dd85674e7d.png" title=" user clicks on Boton agregar carrito (completed)" width="1920"/>
-                <img src="f72067e083ad5478c1caa4c14424cc9e00a950e8371b012b9b77a4dd85674e7d.png" title=" User add product to card task (completed)" width="1920"/>
-                <img src="f72067e083ad5478c1caa4c14424cc9e00a950e8371b012b9b77a4dd85674e7d.png" title=" User go to card task" width="1920"/>
-                <img src="e953fd12718c85af576a247304b551e4bcceabbb8bb5937856e6a4334268c99e.png" title=" user clicks on Boton ir carrito compra" width="1920"/>
-                <img src="1d35c4677e9ef61790838882316a69ff3339eda037c9b15d5957bf8616fa970f.png" title=" user clicks on Boton ir carrito compra" width="1920"/>
-                <img src="9fed340fbe8a92fbb83cbd845be09b7122b59581b2c4c7dcf0e49bec0cf0783e.png" title=" user clicks on Boton ir carrito compra (completed)" width="1920"/>
-                <img src="9fed340fbe8a92fbb83cbd845be09b7122b59581b2c4c7dcf0e49bec0cf0783e.png" title=" User go to card task (completed)" width="1920"/>
-                <img src="9fed340fbe8a92fbb83cbd845be09b7122b59581b2c4c7dcf0e49bec0cf0783e.png" title=" Cuando de clic en un producto y lo agrege al carrito (completed)" width="1920"/>
-                <img src="9fed340fbe8a92fbb83cbd845be09b7122b59581b2c4c7dcf0e49bec0cf0783e.png" title=" Entonces visualizo los productos que he seleccionado para comprar" width="1920"/>
-                <img src="9fed340fbe8a92fbb83cbd845be09b7122b59581b2c4c7dcf0e49bec0cf0783e.png" title=" Then validation card should be (true): <span class='success-color'>SUCCESS</span>" width="1920"/>
+                <img src="8d23bbdafff2ae3e4c03300c17ba6f4f3a70ed26f25d211129d6c1648b003400.png" title=" Dado que ingreso en la pagina de la tienda" width="1366"/>
+                <img src="8d23bbdafff2ae3e4c03300c17ba6f4f3a70ed26f25d211129d6c1648b003400.png" title=" User open browser task" width="1366"/>
+                <img src="8d23bbdafff2ae3e4c03300c17ba6f4f3a70ed26f25d211129d6c1648b003400.png" title=" User opens the pages.homepage page" width="1366"/>
+                <img src="d4b344f21a39a5945a4364df4241f84d107971ff64c5e0edbc6f51cfb7609b2b.png" title=" User open browser task (completed)" width="1366"/>
+                <img src="2f995a7f41d2b24060538adb16572a0c1f5c59bbeab2c42aa06e2d9191b6e8aa.png" title=" Dado que ingreso en la pagina de la tienda (completed)" width="1366"/>
+                <img src="2f995a7f41d2b24060538adb16572a0c1f5c59bbeab2c42aa06e2d9191b6e8aa.png" title=" Cuando de clic en un producto y lo agrege al carrito" width="1366"/>
+                <img src="6c53baab7a2a67990e651921bc25fe1b45dceaf58057608d35365116da78f612.png" title=" User clic btn cookie task" width="1366"/>
+                <img src="6c53baab7a2a67990e651921bc25fe1b45dceaf58057608d35365116da78f612.png" title=" User clicks on boton cookies" width="1366"/>
+                <img src="6c53baab7a2a67990e651921bc25fe1b45dceaf58057608d35365116da78f612.png" title=" User clic btn cookie task (completed)" width="1366"/>
+                <img src="6c53baab7a2a67990e651921bc25fe1b45dceaf58057608d35365116da78f612.png" title=" User search product task" width="1366"/>
+                <img src="6c53baab7a2a67990e651921bc25fe1b45dceaf58057608d35365116da78f612.png" title=" User clicks on input search" width="1366"/>
+                <img src="3a36457c10ba16324baa071187de345979a368b83c9488961b5b9a627efd81c1.png" title=" User clicks on input search (completed)" width="1366"/>
+                <img src="3a36457c10ba16324baa071187de345979a368b83c9488961b5b9a627efd81c1.png" title=" User enters 'Portatil' then hits [RETURN] into input search" width="1366"/>
+                <img src="609ecf43de3c864b52d0295524b6a5383d172eafb00f220b29e043dbe953722d.png" title=" User enters 'Portatil' then hits [RETURN] into input search" width="1366"/>
+                <img src="e40dd551dead3222faa429c4707e5a016ea92a7c8600845ed2558ac525593810.png" title=" User enters 'Portatil' then hits [RETURN] into input search (completed)" width="1366"/>
+                <img src="e40dd551dead3222faa429c4707e5a016ea92a7c8600845ed2558ac525593810.png" title=" User search product task (completed)" width="1366"/>
+                <img src="e40dd551dead3222faa429c4707e5a016ea92a7c8600845ed2558ac525593810.png" title=" User select product task" width="1366"/>
+                <img src="e40dd551dead3222faa429c4707e5a016ea92a7c8600845ed2558ac525593810.png" title=" User random selection: <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 
